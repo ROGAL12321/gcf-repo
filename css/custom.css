@@ -1,0 +1,43 @@
+.kingster-body .logo {
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.kingster-body .logo span {
+  color: #173269;
+  font-weight: 900;
+}
+
+.flex-center-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.kingster-logo-inner a {
+  line-height: 46px;
+  font-size: 24px;
+}
+
+.about-us-title {
+  color: #fff !important;
+  margin-bottom: 20px;
+}
+
+.about-us-text {
+  max-width: 700px;
+  margin: auto;
+  text-align: justify;
+}
+
+.materials-heading {
+  padding-top: 30px !important;
+}
+
+.about-us-container {
+  margin-top: 10px !important;
+}
