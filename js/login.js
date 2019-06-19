@@ -27,7 +27,7 @@ function submitForm(ev) {
     .auth()
     .signInWithEmailAndPassword(email.value, password.value)
     .then(function() {
-      window.location.replace("/dashboard");
+      window.location.replace(location.origin + "/dashboard");
     })
     .catch(function() {
       errorMessage.innerText = 'Nie ma użytkownika o tym adresie e-mail.'

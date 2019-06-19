@@ -58,13 +58,13 @@ function signOut() {
     .auth()
     .signOut()
     .then(function() {
-      window.location.replace("/index");
+      window.location.replace(location.origin + "/index");
     });
 }
 
 function loadUserData(user) {
   if (!user) {
-    window.location.replace("/login");
+    window.location.replace(location.origin + "/login");
     return;
   }
 

@@ -31,5 +31,7 @@ function loadData(querySnapshot) {
   });
 }
 
+console.log(location)
+
 materialsURL.get().then(loadData);
 tbody.addEventListener('click', deleteItem)
