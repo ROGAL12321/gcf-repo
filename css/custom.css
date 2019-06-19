@@ -24,7 +24,6 @@
 }
 
 .about-us-title {
-  color: #fff !important;
   margin-bottom: 20px;
 }
 
@@ -32,6 +31,7 @@
   max-width: 700px;
   margin: auto;
   text-align: justify;
+  color: #6b6b6b;
 }
 
 .materials-heading {
@@ -40,4 +40,44 @@
 
 .about-us-container {
   margin-top: 10px !important;
+}
+
+.about-project,
+.about-project-text {
+  color: #e6e6e6 !important;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.button-container button {
+  position: relative;
+  top: -10px;
+}
+
+.login__reminder-text {
+  display: block;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.additem-btn {
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.title-container {
+  display: flex !important;
+  float: none !important;
+  
+  justify-content: space-between;
+}
+
+.addnew-btn {
+  padding: 10px;
+}
+
+.tableBtn {
+  padding: 10px;
 }
