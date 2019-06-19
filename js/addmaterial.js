@@ -21,7 +21,7 @@ function saveMaterial(material) {
   return FBmaterialsURL
     .add(material)
     .then(function() {
-      window.location.replace(location.origin + "/materials");
+      window.location.replace("materials");
     })
 }
 

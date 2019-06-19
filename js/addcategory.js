@@ -22,7 +22,7 @@ function submitForm(ev) {
     : categoriesURL.add(category)
   
   action.then(function() {
-    window.location.replace(location.origin + "/categories");
+    window.location.replace("categories");
   })
 }
 

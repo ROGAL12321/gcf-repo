@@ -39,7 +39,7 @@ function submitForm(ev) {
     .auth()
     .createUserWithEmailAndPassword(email.value, password.value)
     .then(function() {
-      window.location.replace(location.origin + "/dashboard");
+      window.location.replace("dashboard");
     })
     .catch(function() {
       errorMessage.innerText = 'Wystąpił błąd przy rejestracji'
