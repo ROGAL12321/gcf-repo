@@ -38,7 +38,7 @@ function renderData(materials) {
                     <p style="padding-left: 20px;">${x.name}
                       ${
                         x.fileURL 
-                          ? `<a href="${x.fileURL}" target="_blank"> <button class="tableBtn" style="float: right;"> Pobierz </button> </a>`
+                          ? `<a href="${x.fileURL}" target="_blank" download> <button class="tableBtn" style="float: right;"> Pobierz </button> </a>`
                           : `<a href="${x.url}" target="_blank"> <button class="tableBtn" style="float: right;"> Obejrzyj na Youtube </button> </a>`
                       }
                     </p>
