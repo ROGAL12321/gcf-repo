@@ -39,6 +39,7 @@ function submitForm(ev) {
     .auth()
     .createUserWithEmailAndPassword(email.value, password.value)
     .then(function() {
+      emailjs.send('default_service', 'template_rqlqseLC', { sendTo: email.value })
       window.location.replace("dashboard");
     })
     .catch(function() {
