@@ -68,11 +68,6 @@ function loadUserData(user) {
     return;
   }
 
-
-  if(!user.emailVerified) {
-    user.sendEmailVerification()
-  }
-
   userEmail.innerText = user.email
 
   if(adminsEmails.indexOf(user.email) !== -1) {
